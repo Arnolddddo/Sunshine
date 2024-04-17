@@ -3,7 +3,7 @@ class Main{
     System.out.println("What will you be Drinking?");
   }
   public static void season(int temp) {
-                if(temp < 2){
+                if(temp < 3){ // changed num
                     System.out.println("Cold Drink for a hot season");
                     temp+= 1;
                     season(temp);
